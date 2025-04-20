@@ -4,7 +4,7 @@ import styles from "../styles/page.module.css";
 import routes from "../constants/routes";
 import Link from "next/link";
 
-export default function HomePage() {
+export default async function HomePage() {
   return (
     <div className={styles.courseListContainer}>
       <h1 className={styles.title}>Available Courses</h1>
