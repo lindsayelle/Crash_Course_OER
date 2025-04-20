@@ -1,5 +1,5 @@
 ## OER Crash Course Platform
-This web-based platform 
+This web-based platform is licensed under 
 
 First, run the development server:
 
