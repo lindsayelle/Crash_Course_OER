@@ -1,6 +1,5 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
-
-## Getting Started
+## OER Crash Course Platform
+This web-based platform 
 
 First, run the development server:
 
