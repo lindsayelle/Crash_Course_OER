@@ -1,0 +1,131 @@
+.courseListContainer {
+  padding: 2rem;
+}
+
+.title {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+
+.courseGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 1.5rem;
+}
+
+.courseCard {
+  background: white;
+  border: 1px solid #e0e0e0;
+  border-radius: 12px;
+  padding: 1.5rem;
+  text-decoration: none;
+  color: black;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+  transition: transform 0.2s;
+}
+
+.courseCard:hover {
+  transform: scale(1.02);
+}
+
+.sectionCount {
+  font-size: 0.9rem;
+  margin-top: 0.5rem;
+  color: #666;
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+}
+
+.container {
+  max-width: 775px;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.3rem;
+}
+
+.sectionCard {
+  border: 1px solid var(--card-border);
+  border-radius: 12px;
+  padding: 1.2rem 1.5rem;
+  background: var(--noteboxes-bg);
+  box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+  margin-top: 1rem;
+}
+
+.sectionHeader {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  font-size: 1rem;
+  font-weight: bold;
+  margin-bottom: 0.6rem;
+}
+
+.checkmark {
+  color: var(--links);
+  font-size: 1.1rem;
+}
+
+.topicItem {
+  list-style: circle;
+  margin-left: 0.5rem;
+  margin-bottom: 0.3rem;
+  color: var(--foreground);
+  font-size: 0.95rem;
+}
+
+.startButton {
+  display: inline-block;
+  margin-top: 1.5rem;
+  font-weight: bold;
+  color: var(--links);
+  text-decoration: none;
+}
+
+.startButton:hover {
+  color: var(--link-hover);
+  text-decoration: underline;
+}
+
+.sectionTitle {
+  font-weight: 900;
+}
+
+.startButton {
+  background-color: hsl(210, 100%, 50%);
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 1rem;
+  max-height: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-colour 0.25s ease;
+}
+
+.startButton:hover {
+  background-color: hsl(210, 100%, 45%);
+  color: #fff;
+  text-decoration: none;
+}
+
+.startButton:active {
+  background-color: hsl(210, 100%, 50%);
+  text-decoration: none;
+}
+
+.body {
+  margin: 20px auto;
+  max-width: 775px;
+  box-sizing: border-box; 
+}

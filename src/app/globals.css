@@ -1,14 +1,36 @@
 :root {
   --background: #ffffff;
-  --foreground: #171717;
+  --foreground: #1d1d1d;
+  --highlight-bg: #fcf2d4; /* Light yellow for light mode */
+  --highlight-text: var(--foreground);
+  --noteboxes-bg: #f9f9f8;
+  --hover: hsl(45, 100%, 95%);
+  --border: hsla(0, 0.00%, 90.20%, 0.2);
+  --links: #3366cc;
+  --link-hover: #1a53b0;
+  --heading-links-hover: hsl(0, 0%, 21%);
+  --card-border: #e0e0e0;
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+    --background: #1d1d1d;
+    --foreground: #ffffff;
+    --highlight-bg: #5a4325; /* Softer yellow for dark background */
+    --highlight-text: var(--foreground);
+    --noteboxes-bg: #262626;
+    --hover: #2a2a2a;
+    --links: #66b2ff;
+    --links-hover: #99ccff;
+    --heading-links-hover: hsl(0, 0%, 90%);
+    --card-border: #e0e0e035;
   }
 }
+
+.Toastify__close-button {
+  color: var(--foreground) !important;
+}
+
 
 html,
 body {
@@ -20,8 +42,11 @@ body {
   color: var(--foreground);
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  font-weight: 400px;
+  line-height: 1.5;
+  margin: 2.5rem;
+  /* -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; */
 }
 
 * {
@@ -31,12 +56,87 @@ body {
 }
 
 a {
-  color: inherit;
+  color: var(--links);
+  text-decoration: underline;
+}
+
+a:hover {
+  color: var(--link-hover);
+}
+
+a:active{
+  color: var(--links);
+}
+
+.headingLinks {
+  color: var(--foreground);
   text-decoration: none;
+}
+
+.headingLinks:hover {
+  color: var(--heading-links-hover);
+}
+
+.headingLinks:active {
+  color: var(--foreground);
 }
 
 @media (prefers-color-scheme: dark) {
   html {
     color-scheme: dark;
   }
+}
+
+strong {
+  font-weight: 900;
+  /* text-shadow: 0.2px 0 0 currentColor, -0.2px 0 0 currentColor; */
+}
+
+mark {
+  background-color: var(--highlight-bg);
+  color: var(--highlight-text);
+  padding: 0 2px;
+  border-radius: 2px;
+}
+
+.markOff mark {
+  background-color: transparent !important;
+  color: var(--foreground);
+}
+
+.math {
+  font-family: serif;
+  font-weight: 500;
+  font-size: 1.1rem;
+}
+
+ul {
+  list-style-type: disc;
+  margin-left: 1.5rem;
+
+}
+
+li {
+  display: list-item; /* Ensures bullets are displayed */
+  margin-top: 0.4rem;
+}
+
+.indent {
+  margin-left: 1.5rem;
+}
+
+.doubleIndent {
+  margin-left: 3rem;
+}
+
+.tripleIndent {
+  margin-left: 4.5rem;
+}
+
+.slightVerticalSpace {
+  margin-top: 0.4rem;
+}
+
+.references {
+  margin-top: 0.3rem;
 }

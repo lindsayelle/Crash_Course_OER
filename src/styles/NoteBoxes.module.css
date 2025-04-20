@@ -1,0 +1,19 @@
+.noteBoxes {
+    background-color: var(--noteboxes-bg);
+    padding: 20px;
+    margin-top: 1rem;
+    margin-left: 1.2rem;
+    margin-bottom: 0.5rem;
+    border-radius: 5px;
+    /* display: flexbox; */
+}
+
+.remoji {
+    margin-right: 0.25rem;
+    font-size: 1.3rem;
+}
+
+.content {
+    margin-left: 1.4rem;
+    padding-bottom: 7px;
+}

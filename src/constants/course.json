@@ -1,0 +1,42 @@
+
+  [
+    {
+      "id": "metamorphic-testing",
+      "title": "Metamorphic Testing Course",
+      "description": "Learn more about Metamorphic Testing and Metamorphic Exploration.",
+      "progress": 55,
+      "sections": [
+        {
+          "title": "Section 1: Introduction to Software Testing",
+          "topics": [
+            "Verification vs. Validation",
+            "Types of Software Testing",
+            "Self-Evaluation Quiz"
+          ]
+        },
+        {
+          "title": "Section 2: Metamorphic Testing",
+          "topics": [
+            "Metamorphic Testing for Validation",
+            "Self-Evaluation Quiz"
+          ]
+        },
+        {
+          "title": "Section 3: Metamorphic Exploration",
+          "topics": [
+            "Self-Evaluation Quiz"
+          ]
+        },
+        {
+          "title": "Section 4: Applying MT on Password Crackers",
+          "topics": [
+            "Background",
+            "Generating Metamorphic Relations",
+            "Automating Tests"
+          ]
+        }
+      ]
+    }
+  ]
+  
+  

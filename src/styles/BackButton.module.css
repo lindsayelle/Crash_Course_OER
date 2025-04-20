@@ -1,0 +1,19 @@
+.backButton {
+    background: none;
+    border: none;
+    color: var(--links);
+    font-size: 0.9rem;
+    cursor: pointer;
+    margin-bottom: 1rem;
+    padding-left: 0;
+    text-decoration: underline;
+  }
+  
+  .backButton:hover {
+    color: var(--link-hover);
+  }
+
+  .backButton:active {
+    color: var(--links);
+  }
+  

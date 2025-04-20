@@ -1,0 +1,73 @@
+.body {
+    margin: 20px auto;
+    max-width: 775px;
+    box-sizing: border-box; 
+  }
+  
+  .h1 {
+    margin-top: 1rem;
+    margin-bottom: 0.2rem;
+  }
+  
+  .h2 {
+    margin-top: 1rem;
+    margin-bottom: 0.15rem;
+  }
+  
+  .h3 {
+    margin-top: 1rem;
+    margin-bottom: 0.15rem;
+  }
+  
+  .paragraphContent {
+    margin-top: 0.5rem;
+    font-weight: 550;
+  }
+  
+  .toc {
+    background-color: var(--noteboxes-bg);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    padding: 1.2rem 1.5rem;
+    margin-bottom: 2rem;
+    font-size: 0.95rem;
+  }
+  
+  .tocTitle {
+    font-weight: bold;
+    margin-bottom: 0.75rem;
+    font-size: 1.05rem;
+  }
+  
+  .tocList {
+    list-style: none;
+    padding-left: 0;
+    margin: 0;
+  }
+  
+  .tocList li {
+    margin-bottom: 0.45rem;
+  }
+  
+  .tocList li ul {
+    margin-top: 0.3rem;
+    margin-left: 1rem;
+    padding-left: 1rem;
+    border-left: 1px solid var(--border);
+  }
+  
+  .tocList a {
+    color: var(--links);
+    text-decoration: none;
+    transition: color 0.2s ease, background-color 0.2s ease;
+    padding: 2px 4px;
+    border-radius: 4px;
+  }
+  
+  .tocList a:hover {
+    color: var(--link-hover);
+    background-color: var(--hover);
+    text-decoration: underline;
+  }
+  
+  

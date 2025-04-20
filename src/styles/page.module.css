@@ -1,0 +1,167 @@
+.text {
+  color: var(--foreground);
+}
+
+.courseListContainer {
+  margin: 20px auto;
+  max-width: 775px;
+  box-sizing: border-box; 
+}
+  
+.title {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+  
+.courseGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 1.5rem;
+}
+  
+.courseCard {
+  background: (--noteboxes-bg);
+  border: 1px solid var(--card-border);
+  border-radius: 12px;
+  padding: 1.5rem;
+  text-decoration: none;
+  color: black;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+  transition: transform 0.2s;
+}
+
+.courseCard:hover {
+  transform: scale(1.02);
+}
+
+.sectionCount {
+  font-size: 0.9rem;
+  margin-top: 0.5rem;
+  color: #666;
+}
+
+/* Progress bar styles */
+.progressBarContainer {
+  margin-top: 0.8rem;
+}
+
+.progressBar {
+  background-color: #eee;
+  border-radius: 8px;
+  overflow: hidden;
+  height: 10px;
+  width: 100%;
+}
+
+.progressFill {
+  background-color: var(--links);
+  height: 100%;
+  transition: width 0.3s ease;
+}
+
+.progressText {
+  font-size: 0.8rem;
+  color: #555;
+  margin-top: 0.3rem;
+  display: block;
+}
+
+.sectionCard {
+  margin-top: 1.2rem;
+}
+
+.checkmark {
+  color: black;
+  font-weight: bold;
+  margin-right: 0.3rem;
+}
+
+.startButton {
+  display: inline-block;
+  margin-top: 1.5rem;
+  font-size: 0.95rem;
+  color: var(--links);
+  text-decoration: underline;
+}
+
+.startButton:hover {
+  color: var(--link-hover);
+  text-decoration: underline;
+}
+
+
+
+.body {
+  margin: 20px auto;
+  max-width: 775px;
+  box-sizing: border-box; 
+}
+
+.h1 {
+  margin-top: 1rem;
+  margin-bottom: 0.2rem;
+}
+
+.h2 {
+  margin-top: 1rem;
+  margin-bottom: 0.15rem;
+}
+
+.h3 {
+  margin-top: 1rem;
+  margin-bottom: 0.15rem;
+}
+
+.paragraphContent {
+  margin-top: 0.5rem;
+  font-weight: 550;
+}
+
+.toc {
+  background-color: var(--noteboxes-bg);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  padding: 1.2rem 1.5rem;
+  margin-bottom: 2rem;
+  font-size: 0.95rem;
+}
+
+.tocTitle {
+  font-weight: bold;
+  margin-bottom: 0.75rem;
+  font-size: 1.05rem;
+}
+
+.tocList {
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+}
+
+.tocList li {
+  margin-bottom: 0.45rem;
+}
+
+.tocList li ul {
+  margin-top: 0.3rem;
+  margin-left: 1rem;
+  padding-left: 1rem;
+  border-left: 1px solid var(--border);
+}
+
+.tocList a {
+  color: var(--links);
+  text-decoration: none;
+  transition: color 0.2s ease, background-color 0.2s ease;
+  padding: 2px 4px;
+  border-radius: 4px;
+}
+
+.tocList a:hover {
+  color: var(--link-hover);
+  background-color: var(--hover);
+  text-decoration: underline;
+}
+
+
+

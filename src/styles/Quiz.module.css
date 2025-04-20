@@ -1,0 +1,83 @@
+.quizBox {
+    background-color: var(--noteboxes-bg, #f9f9f8);
+    padding: 20px;
+    margin-top: 1em;
+    border-radius: 8px;
+    border: 1px solid var(--border);
+  }
+  
+  .question {
+    font-weight: 600;
+    margin-bottom: 1em;
+  }
+  
+  .options {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .optionItem {
+    display: block;
+    background-color: var(--background);
+    border: 1px solid var(--border);
+    border-radius: 6px;
+    padding: 12px 14px;
+    margin-bottom: 8px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+  }
+  
+  .optionItem:hover {
+    background-color: var(--hover);
+  }
+  
+  .optionItem input[type="radio"] {
+    margin-right: 10px;
+  }
+  
+  .textInput {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid hsl(0, 0%, 80%);
+    border-radius: 6px;
+    font-size: 1rem;
+    margin-bottom: 1em;
+    background-color: var(--background);
+  }
+  
+  .submitButton {
+    background-color: hsl(210, 100%, 50%);
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 1rem;
+    max-height: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .submitButton:hover {
+    background-color: hsl(210, 100%, 45%);
+  }
+
+  .submitButton:active {
+    background-color: hsl(210, 100%, 50%);
+  }
+  
+  .explanation {
+    margin-top: 0.4em;
+  }
+
+  .toastLabel {
+    font-weight: 600;
+  }
+
+  .toastContent {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+  }
