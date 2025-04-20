@@ -14,17 +14,20 @@ export default async function HomePage() {
           const progress = course.progress || 0;
 
           return (
-            <Link
-              key={course.id}
-              href={routes.courseInfo(course.id)}
-              className={styles.courseCard}
-            >
-              <div className={styles.text}>
-                <h2>{course.title}</h2>
-                <p>{course.description}</p>
-              </div>
-              <p className={styles.sectionCount}>📘 {totalSections} sections</p>
-            </Link>
+            <>
+              <Link
+                key={course.id}
+                href={routes.courseInfo(course.id)}
+                className={styles.courseCard}
+              >
+                <div className={styles.text}>
+                  <h2>{course.title}</h2>
+                  <p>{course.description}</p>
+                </div>
+                <p className={styles.sectionCount}>📘 {totalSections} sections</p>
+              </Link>
+              OER Crash Course Platform © 2025 by Lindsay Elle Chiara Song is licensed under <a href="https://creativecommons.org/licenses/by/4.0/?ref=chooser-v1">Creative Commons Attribution 4.0 International </a>
+            </>
           );
         })}
       </div>
