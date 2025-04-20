@@ -2,7 +2,6 @@
 import { useParams } from 'next/navigation';
 import { useState } from "react";
 
-import Image from "next/image";
 import styles from "@/styles/Learn.module.css";
 import NoteBoxes from "@/components/NoteBoxes";
 import Quiz from "@/components/Quiz";

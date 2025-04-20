@@ -1,4 +1,4 @@
-// app/page.js
+"use server";
 import courses from "../constants/course.json";
 import styles from "../styles/page.module.css";
 import routes from "../constants/routes";
