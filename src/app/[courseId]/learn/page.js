@@ -236,8 +236,6 @@ export default function LearnPage({ params }) {
       <Head>
         <title>Metamorphic Testing | OER Crash Course</title>
         <meta name="description" content="Learn about Metamorphic Testing in this OER Crash Course." />
-        <meta name="keywords" content="Metamorphic Testing, OER, Crash Course" />
-        {/* Add other meta tags as needed */}
       </Head>
       <main>
         <div className={`${styles.body} ${markClass}`}>
