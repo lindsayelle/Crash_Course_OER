@@ -8,7 +8,7 @@ npm install
 npm run dev
 ```
 
-The website has been deployed on [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from this repository. 
+The website has been deployed on [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from this repository and can be publicly accessed through the following URL: [https://crash-course-oer.vercel.app/metamorphic-testing/](https://crash-course-oer.vercel.app/metamorphic-testing/). 
 
 
 [OER Crash Course Platform](https://github.com/lindsayelle/Crash_Course_OER/) © 2025 by [Lindsay Elle Chiara Song](https://www.linkedin.com/in/lindsayecsong/) is licensed under [Creative Commons Attribution 4.0 International](https://creativecommons.org/licenses/by/4.0/?ref=chooser-v1)
